@@ -1,0 +1,19 @@
+{
+  "name": "shouty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test && cucumber-js -f @cucumber/pretty-formatter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "latest",
+    "@cucumber/pretty-formatter": "latest",
+    "hamjest": "^3.7.2",
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.3"
+  }
+}
